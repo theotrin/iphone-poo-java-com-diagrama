@@ -3,12 +3,13 @@ package Class;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Messagem {
+public class Mensagem {
     private ArrayList<String> messagens;
 
     public void listarMensagens() {
 
             if(messagens != null){
+                System.out.println("Caixa de mensagens:");
                 for(String mensagem: messagens){
                     System.out.println(mensagem);
                 }
@@ -31,6 +32,7 @@ public class Messagem {
                     case 1:
                         System.out.println("mensagem enviada para "+ contato);
                         System.out.println(corpoMenssagem);
+                        this.messagens.add(contato+corpoMenssagem);
                         loop = false;
                         break;
                     case 2:
@@ -43,5 +45,10 @@ public class Messagem {
                         break;
                 }               
             }
-        }   
+        }
+
+        public void setMessagens(ArrayList<String> messagens) {
+            this.messagens = messagens;
+        } 
+          
 }

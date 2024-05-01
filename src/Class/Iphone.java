@@ -5,12 +5,12 @@ public class Iphone {
 
     public Ipod ipod;
     public Telefone telefone;
-    public Messagem mensagem;
+    public Mensagem mensagem;
 
     public Iphone() {
      this.ipod = new Ipod();
      this.telefone = new Telefone();
-     this.mensagem = new Messagem();
+     this.mensagem = new Mensagem();
     }
     
 }

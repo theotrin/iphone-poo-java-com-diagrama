@@ -57,8 +57,10 @@ public class App {
         //iphone.telefone.listarContatos();
         //iphone.telefone.listarCorreioDeVoz();
 
+        //Funcionalidades da classe mensagem
         iphone.mensagem.enviarMensagem("Mãe");
-
+        iphone.mensagem.listarMensagens(); //se não for enviado mensagem para nenhunm contato retornar uma caixa dvazia de mensagens
+        
         
 
 
