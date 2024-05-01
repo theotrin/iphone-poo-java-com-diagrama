@@ -30,11 +30,11 @@ public class App {
 
         Iphone iphone = new Iphone();
 
+        //povoando classes com dados
         iphone.ipod.setMusicas(novasMusicas);
         iphone.ipod.setFilmes(novosFilmes);
         iphone.ipod.setAudioBooks(novosAudioBooks);
         iphone.ipod.setVideos(novosVideos);
-
         iphone.telefone.setContatos(contatos);
 
         //Funcionalidades do ipod dentro do iphone
@@ -57,10 +57,17 @@ public class App {
         //iphone.telefone.listarContatos();
         //iphone.telefone.listarCorreioDeVoz();
 
-        //Funcionalidades da classe mensagem
-        iphone.mensagem.enviarMensagem("Mãe");
-        iphone.mensagem.listarMensagens(); //se não for enviado mensagem para nenhunm contato retornar uma caixa dvazia de mensagens
+        //Funcionalidades da classe Mensagem
+
+        //iphone.mensagem.enviarMensagem("Mãe");
+        //iphone.mensagem.listarMensagens(); //se não for enviado mensagem para nenhunm contato retornar uma caixa dvazia de mensagens
         
+        //Funcionalidades da classe Internet
+
+        // iphone.internet.exibirPagina();
+        // iphone.internet.adcionarNovaAba();
+        // iphone.internet.adcionarNovaAba();
+        // iphone.internet.adcionarNovaAba();
         
 
 
