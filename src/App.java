@@ -37,23 +37,27 @@ public class App {
 
         iphone.telefone.setContatos(contatos);
 
-        //funções do ipod dentro do iphone
+        //Funcionalidades do ipod dentro do iphone
         // iphone.ipod.listarMusicas();
         // iphone.ipod.listarFilmes();
         // iphone.ipod.listarAudioBooks();
         // iphone.ipod.listarVideos();
 
-        //funções do playback do ipod de uma classe dentro do ipod
+        //Funcionalidades do playback do ipod de uma classe dentro do ipod
         
         // iphone.ipod.playback.play();
         // iphone.ipod.playback.pause();
         // iphone.ipod.playback.next();
         // iphone.ipod.playback.previous();
 
+        //Funcionalidades do Telefone dentro do Iphone!
+
         //iphone.telefone.recebendoLigacao();
         //iphone.telefone.ligar();
         //iphone.telefone.listarContatos();
-        iphone.telefone.listarCorreioDeVoz();
+        //iphone.telefone.listarCorreioDeVoz();
+
+        iphone.mensagem.enviarMensagem("Mãe");
 
         
 
